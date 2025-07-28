@@ -1,5 +1,6 @@
 import { createClient } from '@/lib/supabase/server'
 import { redirect } from 'next/navigation'
+import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 
@@ -30,13 +31,6 @@ export default async function DashboardPage() {
     .eq('id', user.id)
     .single()
 
-  const handleSignOut = async () => {
-    'use server'
-    const supabase = await createClient()
-    await supabase.auth.signOut()
-    redirect('/auth')
-  }
-
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
@@ -45,21 +39,11 @@ export default async function DashboardPage() {
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center">
               <h1 className="text-2xl font-bold text-gray-900">
-                Escape Booking
+                Dashboard
               </h1>
               <span className="ml-3 px-2 py-1 bg-red-100 text-red-800 text-xs rounded-full">
-                Dashboard
+                Panel Principal
               </span>
-            </div>
-            <div className="flex items-center space-x-4">
-              <span className="text-sm text-gray-700">
-                Hola, {profile?.name || user.email}
-              </span>
-              <form action={handleSignOut}>
-                <Button variant="outline" size="sm" type="submit">
-                  Cerrar sesión
-                </Button>
-              </form>
             </div>
           </div>
         </div>
@@ -149,15 +133,21 @@ export default async function DashboardPage() {
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
-              <Button className="w-full bg-red-600 hover:bg-red-700">
-                Crear Nueva Reserva
-              </Button>
-              <Button variant="outline" className="w-full">
-                Gestionar Salas
-              </Button>
-              <Button variant="outline" className="w-full">
-                Ver Calendario
-              </Button>
+              <Link href="/dashboard/bookings">
+                <Button className="w-full bg-red-600 hover:bg-red-700">
+                  Crear Nueva Reserva
+                </Button>
+              </Link>
+              <Link href="/dashboard/rooms">
+                <Button variant="outline" className="w-full">
+                  Gestionar Salas
+                </Button>
+              </Link>
+              <Link href="/dashboard/bookings">
+                <Button variant="outline" className="w-full">
+                  Ver Calendario
+                </Button>
+              </Link>
             </CardContent>
           </Card>
 
