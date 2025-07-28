@@ -1,0 +1,280 @@
+ESCAPE_BOOKING_CONTEXTO_PERMANENTE.txt
+
+==========================================================================
+🚀 CONTEXTO PERMANENTE PARA AGENTE DE IA - ESCAPE BOOKING
+==========================================================================
+
+[⚠️ IMPORTANTE: Este archivo debe actualizarse CONSTANTEMENTE con cada cambio o progreso del proyecto. Si trabajas con un nuevo agente de IA, este archivo es tu memoria completa del proyecto]
+
+==========================================================================
+📝 INFORMACIÓN DEL DESARROLLADOR
+==========================================================================
+
+Nombre: Diego
+Rol: Desarrollador Full-Stack Principal
+Ubicación: macOS (Mac M4)
+Shell: zsh
+Tiempo disponible: 35 horas/semana
+Experiencia: React, Next.js, TypeScript, PostgreSQL, APIs
+
+==========================================================================
+🎯 PROYECTO: ESCAPE BOOKING
+==========================================================================
+
+DESCRIPCIÓN DEL PROYECTO:
+Sistema de reservas integral para Escape Rooms con inteligencia artificial integrada. Una plataforma SaaS multi-tenant que permite a propietarios de escape rooms gestionar reservas, clientes, pagos y operaciones diarias.
+
+OBJETIVO PRINCIPAL:
+Crear la alternativa más competitiva a "Escape Room Director" con:
+- 90% menos costo ($29/mes vs $299/mes)
+- Funcionalidades superiores (IA, widget embebible, API completa)
+- Desarrollo 100% propio para eliminar costos externos ($0 en desarrollo)
+
+MERCADO OBJETIVO:
+- Propietarios de Escape Rooms en España y Latinoamérica
+- Empresas de entretenimiento que buscan digitalizar sus reservas
+- Franquicias de escape rooms que necesiten gestión centralizada
+
+==========================================================================
+🏗️ ARQUITECTURA TÉCNICA DEFINITIVA
+==========================================================================
+
+STACK TECNOLÓGICO:
+- Frontend: Next.js 14 + TypeScript
+- UI Framework: Tailwind CSS + Shadcn/ui
+- Backend: Supabase (PostgreSQL + Auth + Storage)
+- Hosting: Vercel (plan gratuito inicialmente)
+- Pagos: Stripe
+- IA: OpenAI API (GPT-4) + Anthropic Claude
+- Emails: Resend
+- Analytics: Vercel Analytics
+
+ARQUITECTURA:
+- Multi-tenant SaaS
+- Widget embebible para sitios web
+- API REST completa
+- PWA (Progressive Web App)
+- Responsive design (mobile-first)
+- Multi-idioma (ES/EN inicial)
+
+==========================================================================
+📋 FUNCIONALIDADES CORE CONFIRMADAS
+==========================================================================
+
+MÓDULO DE AUTENTICACIÓN:
+- Login/registro con email + redes sociales
+- Roles: Admin, Manager, Staff, Customer
+- Multi-tenant por escape room/empresa
+
+MÓDULO DE RESERVAS:
+- Calendario visual interactivo
+- Gestión de horarios y disponibilidad
+- Reservas grupales e individuales
+- Sistema de confirmación automática
+- Recordatorios por email/SMS
+
+MÓDULO DE IA (DIFERENCIADOR CLAVE):
+- Asignación inteligente de Game Masters
+- Chatbot para atención al cliente 24/7
+- Análisis predictivo de demanda
+- Recomendaciones personalizadas
+- Optimización automática de horarios
+
+MÓDULO DE PAGOS:
+- Integración con Stripe
+- Pagos online seguros
+- Gestión de reembolsos
+- Facturación automática
+- Reportes financieros
+
+MÓDULO ADMIN/DASHBOARD:
+- Panel de control en tiempo real
+- Analytics y métricas avanzadas
+- Gestión de clientes y reservas
+- Configuración de escape rooms
+- Reportes personalizables
+
+WIDGET EMBEBIBLE:
+- Calendario de reservas para sitios web
+- Completamente customizable
+- Responsive design
+- Fácil integración (1 línea de código)
+
+==========================================================================
+💰 MODELO DE NEGOCIO Y PRECIOS
+==========================================================================
+
+COMPETENCIA PRINCIPAL: Escape Room Director
+- Su precio: $204-524/mes
+- Nuestro precio: $0-49/mes
+- Nuestra ventaja: 90% más barato + funcionalidades superiores
+
+PLANES DE PRECIOS:
+1. GRATUITO ($0/mes):
+   - Hasta 100 reservas/mes
+   - 1 ubicación
+   - Dashboard básico
+   - Widget embebible
+
+2. PROFESIONAL ($29/mes):
+   - Reservas ilimitadas
+   - Hasta 10 ubicaciones
+   - IA completa integrada
+   - API acceso
+   - Soporte prioritario
+
+3. ENTERPRISE ($49/mes):
+   - Todo ilimitado
+   - IA avanzada
+   - Integraciones custom
+   - Soporte 24/7
+   - Onboarding personalizado
+
+COSTOS OPERATIVOS MÁXIMOS:
+- Infraestructura: $0-50/mes
+- Desarrollo: $0 (Diego lo hace todo)
+- Margen de ganancia: 95%+
+
+==========================================================================
+📅 CRONOGRAMA DE DESARROLLO (16 SEMANAS)
+==========================================================================
+
+FASE 1 - FUNDACIÓN (Semanas 1-4):
+- Configuración del proyecto Next.js 14
+- Integración con Supabase
+- Sistema de autenticación completo
+- Arquitectura base de la base de datos
+
+FASE 2 - RESERVAS CORE (Semanas 5-7):
+- Sistema de reservas básico
+- Calendario interactivo
+- Integración con Stripe
+- Panel de administración básico
+
+FASE 3 - IA E INTELIGENCIA (Semanas 8-10):
+- Integración con OpenAI/Anthropic
+- Chatbot inteligente
+- Sistema de recomendaciones
+- Asignación automática de Game Masters
+
+FASE 4 - FUNCIONALIDADES AVANZADAS (Semanas 11-12):
+- Panel multi-tenant completo
+- Sistema de reportes avanzados
+- API REST documentada
+- Optimizaciones de rendimiento
+
+FASE 5 - WIDGET E INTEGRACIÓN (Semanas 13-14):
+- Widget embebible
+- Personalización completa
+- Testing en sitios web reales
+- Documentación de integración
+
+FASE 6 - LAUNCH Y OPTIMIZACIÓN (Semanas 15-16):
+- Testing completo
+- Optimización SEO
+- Preparación para producción
+- Marketing inicial
+
+==========================================================================
+📂 ESTRUCTURA DE ARCHIVOS DEL PROYECTO
+==========================================================================
+
+DOCUMENTACIÓN CREADA:
+✅ DOCUMENTACION_SISTEMA_ESCAPE_ROOMS.md - Especificaciones técnicas completas
+✅ CRONOGRAMA_DESARROLLO.md - Timeline detallado de 16 semanas
+✅ ARQUITECTURA_COMPLETA.md - Estructura completa del sistema
+✅ PRESUPUESTO_DETALLADO.md - Análisis competitivo vs Escape Room Director
+✅ ESCAPE_BOOKING_CONTEXTO_PERMANENTE.txt - Este archivo (contexto para IA)
+
+PRÓXIMO PASO: Iniciar desarrollo del proyecto
+
+==========================================================================
+🎨 IDENTIDAD VISUAL Y BRANDING
+==========================================================================
+
+NOMBRE: Escape Booking
+COLORES PRINCIPALES:
+- Negro (#000000) - Elegancia y misterio
+- Rojo (#DC2626) - Energía y urgencia
+- Blanco (#FFFFFF) - Limpieza y claridad
+
+TIPOGRAFÍA: Inter (clean, professional)
+ESTILO: Minimalista, profesional, tech-forward
+
+==========================================================================
+⚡ ESTADO ACTUAL DEL PROYECTO
+==========================================================================
+
+ÚLTIMA ACTUALIZACIÓN: 28 de julio de 2025
+FASE ACTUAL: Documentación completa ✅
+SIGUIENTE HITO: Configuración inicial del proyecto Next.js
+
+PROGRESO GENERAL:
+- [✅] Documentación técnica completa
+- [✅] Cronograma de desarrollo establecido
+- [✅] Arquitectura del sistema definida
+- [✅] Análisis competitivo completado
+- [🔄] Próximo: Setup inicial del proyecto
+
+DECISIONES TÉCNICAS TOMADAS:
+- Next.js 14 con App Router
+- Supabase como BaaS
+- Tailwind + Shadcn/ui para UI
+- TypeScript en todo el proyecto
+- Vercel para hosting
+
+==========================================================================
+💡 INSTRUCCIONES PARA EL AGENTE DE IA
+==========================================================================
+
+COMO TRABAJAR CON DIEGO:
+1. Siempre consultar este archivo PRIMERO para entender el contexto completo
+2. ACTUALIZAR este archivo después de cada sesión significativa
+3. Seguir las especificaciones técnicas de los archivos .md
+4. Priorizar funcionalidades que nos diferencien de la competencia
+5. Mantener el enfoque en costos ultra-bajos y alta funcionalidad
+6. Preguntar antes de tomar decisiones arquitectónicas importantes
+7. Documentar todos los cambios importantes
+
+REGLAS DE DESARROLLO:
+- Código limpio y bien documentado
+- TypeScript en todo momento
+- Responsive design obligatorio
+- Optimización de rendimiento constante
+- Seguridad como prioridad
+- Testing de funcionalidades críticas
+
+COMUNICACIÓN:
+- Diego prefiere explicaciones técnicas detalladas
+- Mostrar ejemplos de código cuando sea relevante
+- Sugerir mejoras y alternativas
+- Ser proactivo en la identificación de problemas
+
+==========================================================================
+🔄 HISTORIAL DE CAMBIOS
+==========================================================================
+
+28/07/2025:
+- Creación del archivo de contexto permanente
+- Documentación completa del proyecto finalizada
+- Análisis competitivo vs Escape Room Director completado
+- Definición final del stack tecnológico
+- Establecimiento del cronograma de 16 semanas
+
+[NOTA: Continuar actualizando este historial con cada cambio significativo]
+
+==========================================================================
+🚨 RECORDATORIOS CRÍTICOS
+==========================================================================
+
+1. Este archivo DEBE actualizarse constantemente
+2. Cualquier cambio en arquitectura debe reflejarse aquí
+3. Mantener la ventaja competitiva vs Escape Room Director
+4. $0 en costos de desarrollo = ventaja clave
+5. IA integrada = diferenciador principal
+6. Widget embebible = generador de leads único
+7. Documentar TODOS los cambios importantes
+
+==========================================================================
+FIN DEL CONTEXTO PERMANENTE
+==========================================================================
